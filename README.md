@@ -10,7 +10,7 @@
 --domain : The domain for NTLM authentication (if applicable)
 ```
 
-## Examples
+## Example
 ```
 python bruteforce.py --loginurl http://files.example.com/ --usernamesfile usernames.txt --passwordsfile  passwords.txt --ntlm --domain example.com
 ```
@@ -40,4 +40,4 @@ python bruteforce.py --loginurl http://files.example.com/ --usernamesfile userna
 19   georgina.edwards  Changeme123     200            163
 ```
 
-> For successful authentication, search for different status and/or content size.
+> For successful authentication, search for different status and/or Content-Length.

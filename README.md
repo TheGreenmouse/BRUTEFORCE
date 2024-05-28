@@ -39,3 +39,5 @@ python bruteforce.py --loginurl http://files.example.com/ --usernamesfile userna
 18       mark.oconnor  Changeme123     401           1293
 19   georgina.edwards  Changeme123     200            163
 ```
+
+> For successful authentication, search for different status and/or content size.
